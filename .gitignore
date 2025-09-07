@@ -1,3 +1,3 @@
 .env
-.\langsmith_venv\
-codes\health_policy_doc.pdf
+./langsmith_venv
+./code/health_policy_doc.pdf
