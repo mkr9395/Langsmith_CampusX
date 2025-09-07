@@ -32,9 +32,9 @@ retriever = vs.as_retriever(search_type = 'similarity', search_kwargs={'k':3})
 
 # 4) Prompts
 prompt = ChatPromptTemplate.from_messages([
-    ('system', "Answer ONLY from the provided context. If not found, say you don't know."),
-    ('human', "Question: {question}\n\nContext:\n{context}")]
-                                           )
+    ("system", "Answer ONLY from the provided context. If not found, say you don't know."),
+    ("human", "Question: {question}\n\nContext:\n{context}")]
+                                          )
 
 # 5) chain
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
