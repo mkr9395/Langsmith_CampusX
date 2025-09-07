@@ -1,7 +1,7 @@
 # pip install -U langchain langchain-openai langchain-community faiss-cpu pypdf python-dotenv
 
 
-# ***************************************** We can trace anything using @traceable of Langsmith *******************************8
+# *********************************** We can trace anything using @traceable of Langsmith as different experiments***********************
 import os
 from dotenv import load_dotenv
 from langchain_community.document_loaders import PyPDFLoader
